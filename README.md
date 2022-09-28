@@ -15,6 +15,7 @@
             <div class="banner-btn">
                 <a href="orarend.html"><span></span>Órarend</a>
                 <a href="https://github.com/SzucsGergo1"><span></span>GitHub</a>
+                <a href="https://github.com/SzucsGergo1/SAGVARI"><span></span>Projects</a>
             </div>
         </div>
     </section>
