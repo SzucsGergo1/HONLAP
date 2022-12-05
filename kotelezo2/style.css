@@ -1,0 +1,45 @@
+#fejlec{
+    background-color: #d2eb34;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    width: 955px;
+    border-style: double;
+    border-color: #0a1e4a;
+}
+td{
+    background-color: #c1caeb;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    width:30px;
+    padding: 15px;
+}
+table{
+    border-spacing: 10px;
+    border-style: double;
+    border-color: #0a1e4a;
+    margin: 5px;
+    background-color: #b3e6c1;
+    border-radius: 15px;
+}
+th{
+    background-color: #6f80c0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    padding: 15px;
+}
+.main{
+    float: left;
+}
+#keypad td{
+    background-color: #f5c171;
+}
