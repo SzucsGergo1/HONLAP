@@ -1,0 +1,41 @@
+#fejlec{
+    background-color: #d2eb34;
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 5px;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    width: 470px;
+}
+td{
+    background-color: #d2eb34;
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    width:30px;
+    padding: 15px;
+}
+table{
+    border-spacing: 10px;
+    border-style: dotted;
+    border-color: #0a1e4a;
+    margin: 5px;
+}
+th{
+    background-color: #1ea84f;
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+    padding: 15px;
+}
+.main{
+    float: left;
+}
