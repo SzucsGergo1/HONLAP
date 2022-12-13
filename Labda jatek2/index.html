@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name=theme-color content="black">
+  <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<h3>Kattints a labdára</h3>
+<button class="start" ></button>
+<button class="hide-reload">Játsz újra</button>
+
+<script>
+
+var b=document.querySelector('.start');
+var btn2 = document.querySelector('.hide-reload')
+var count = -1;
+let getTime = Date.now();
+
+window.onload=(event)=>{
+  setInterval(function(){
+    b.style.transform="translate("+(Math.floor(Math.random()*100)-50)+"vw,"+(Math.floor(Math.random()*100)-50)+"vh)"
+  }, 1075);
+}
+
+b.onclick = function () {
+    count++;
+    document.querySelector('h3').innerHTML=count;
+    setInterval(function checkTime() {
+      let gameTime = Date.now() - getTime;
+      if (gameTime > 3000) {
+        result = document.querySelector('h3');
+        result.innerHTML = "Vesztettél";
+        b.classList.add('hide-ball')
+        btn2.classList.remove('hide-reload')
+        btn2.classList.add('show-reload')
+      }
+    }, 3000)
+    getTime = Date.now();
+}
+
+btn2.addEventListener('click', () => location.reload());
+
+</script>
+</body>
+</html>
